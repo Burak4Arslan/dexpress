@@ -32,7 +32,7 @@ app.get('/about',(req,res) => {
         mal: `${fd}`
     })
 
-});
+})
 app.get('/o',(req,res) => {
 
     res.render('☺')
