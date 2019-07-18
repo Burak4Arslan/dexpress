@@ -19,8 +19,8 @@ app.use(express.static(fd));
 app.get('',(req,res) => {
 
     res.render('index', {
-        title: 'HomePage',
-        name: ')( )( )( )( )( )('
+        title: 'Bigoş',
+        name: '♥ ♥ ♥'
     })
 
 });
@@ -28,9 +28,8 @@ app.get('',(req,res) => {
 app.get('/about',(req,res) => {
 
     res.render('about', {
-        title: 'ABOUT',
-        name: 'Burası boş :(',
-        mal: `${fd}`
+        title: 'Bigoşkom',
+        name: ':* :* :*'
     })
 
 })
